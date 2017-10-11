@@ -44,7 +44,7 @@ def test_translator_exists
 
   def test_can_read_and_translate_from_a_file
     translator = Translator.new
-    
-    assert_equal ".. .--- ..-. .- ..-....-...", translator.from_file("input.txt")
+
+    assert_equal ".. .--- ..-. .- ..-....-...", translator.from_file("./lib/input.txt")
   end
 end

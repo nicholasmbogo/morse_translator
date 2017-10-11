@@ -55,6 +55,6 @@ class Translator
 
   def from_file(filename)
     file = File.read(filename)
-    eng_to_morse(text)
+    eng_to_morse(file)
   end
 end
